@@ -14,7 +14,7 @@ class ExampleCommand extends \Groff\Command\Command
      *
      * @return Int Status code - 0 for success
      */
-    function main()
+    public function main()
     {
         $this->userName = $this->option("name");
         $this->v        = $this->option("v");
