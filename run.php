@@ -6,10 +6,10 @@ $_SERVER["DOCUMENT_ROOT"] = __DIR__;
 
 
 include("vendor/autoload.php");
-include("ExampleCommand.php");
+include("PostNewPosts.php");
 
 
-$command = new ExampleCommand();
+$command = new PostNewPosts();
 $status = $command->run();
 
 exit($status);
