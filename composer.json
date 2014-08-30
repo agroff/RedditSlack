@@ -1,0 +1,24 @@
+{
+    "name": "you/project",
+    "type": "project",
+    "description": "description",
+    "keywords": ["keyword"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "First Last",
+            "email": "email@example.com",
+            "homepage": "http://example.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "groff/command": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Groff": "."
+        }
+    }
+}
