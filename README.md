@@ -9,6 +9,8 @@ To use:
 
 `cd ProjectName`
 
+`composer update`
+
 `chmod +x run.php`
 
 `./run.php --name FirstName`
